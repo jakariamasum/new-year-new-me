@@ -1,41 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/665d6425d5.js" crossorigin="anonymous"></script>
-    <title>Assignment</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
 </head>
-<body>
 
+<body>
+    <!-- banner section -->
     <header class="banner">
         <div class="banner-description">
             <h1 class="banner-title">All Thinks Are Possible If You believe</h1>
-                <p class="banner-details">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words</p>
-                <button>Contact us</button>
+            <p class="banner-details">There are many variations of passages of Lorem Ipsum available, but the majority
+                have suffered alteration in some form, by injected humour, or randomised words</p>
+            <button class="banner-btn">Contact us</button>
         </div>
-
     </header>
 
     <main>
-        
+        <!-- about section -->
+        <section class="about section-width">
+            <h1 class="section-title">About me</h1>
+            <p class="section-subtitle">I am expert in the follwoing field.</p>
+            <div class="process-container">
+                <div class="items">
+                    <img src="./images/digital.png" alt="" class="container-img">
+                    <h3 class="container-title">Digital Solutions</h3>
+                    <p class="container-subtitle">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur,
+                        et.</p>
+                </div>
+                <div class="items">
+                    <img src="./images/creative.png" alt="" class="container-img">
+                    <h3 class="container-title">Creative idea</h3>
+                    <p class="container-subtitle">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur,
+                        et.</p>
+                </div>
+                <div class="items">
+                    <img src="./images/marketing.png" alt="" class="container-img">
+                    <h3 class="container-title">Integrated Marketing</h3>
+                    <p class="container-subtitle">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur,
+                        et.</p>
+                </div>
+            </div>
         </section>
-
+        <!-- failure section -->
         <section class="failure-section">
             <div>
                 <img src="./images/person.png" alt="">
             </div>
             <div class="failure-details">
                 <h1 class="failure-details-title">My failures of previous year</h1>
-                <i class="fa-thin fa-check"></i><p>Contrary to popular belief, is not simply.</p>
-                <i class="fa-thin fa-check"></i>
-                
+                <p class="failure-describe">Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+                    roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard
+                    McClintock.</p>
+                <p class="failure-list"><span class="check">&checkmark;</span> Contrary to popular belief, is not
+                    simply.</p>
+                <p class="failure-list"><span class="check">&checkmark;</span> Contrary to popular belief.</p>
+                <p class="failure-list"><span class="check">&checkmark;</span> Contrary to popular , is not simply.</p>
+                <p class="failure-list"><span class="check">&checkmark;</span> Contrary to popular belief, is not
+                    simply.</p>
+                <p class="failure-list"><span class="check">&checkmark;</span> Contrary to popular simply.</p>
+
             </div>
         </section>
-
-        <section class="plans">
+        <!-- my plan section -->
+        <section class="section-width">
             <h1 class="plans-title">My Plans</h1>
             <div class="plans-items">
                 <div class="item">
@@ -60,15 +95,23 @@
                 </div>
             </div>
         </section>
+        <!-- gradient section -->
+        <section class="gradient section-width">
+            <div class="gradient-details">
+                <h2 class="gradient-title">Awlays keep a positive<br> mindset</h2>
+                <button class="gradient-btn">Call now</button>
+            </div>
+        </section>
     </main>
 
-
-
+    <!-- footer section -->
     <footer>
         <div class="footer-details">
+            <!-- footer left side -->
             <div class="future-section">
                 <p class="future-title">Future</p>
-                <p class="future-plan">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words</p>
+                <p class="future-plan">There are many variations of passages of Lorem Ipsum available, but the majority
+                    have suffered alteration in some form, by injected humour, or randomised words</p>
                 <p class="email">Email : info@gmail.com</p>
                 <p class="phone">Phone : 01500 00 00 00</p>
                 <div class="logos">
@@ -83,6 +126,7 @@
                     </div>
                 </div>
             </div>
+            <!-- footer right side -->
             <div class="subscribe-section">
                 <p class="subscribe-title">Subscribe</p>
                 <input type="text" name="" id="" class="enter-mail" placeholder="Enter your email">
@@ -91,4 +135,5 @@
         </div>
     </footer>
 </body>
+
 </html>
